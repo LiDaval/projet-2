@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 50px;
+    padding: 50px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.corps {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.descrip {
+    background-image: url(../../image/CV_IIM_Groupe_long.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .corps {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .descrip {
+        background-image: url(../../image/CV_IIM_Groupe_large.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+
+    }
+}

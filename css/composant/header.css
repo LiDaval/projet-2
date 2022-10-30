@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+    align-items: center;
+    animation-name: nav;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    gap: 10%;
+}
+
+@keyframes nav {
+    0% {
+        background-color: blue;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}

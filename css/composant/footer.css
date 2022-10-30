@@ -1,0 +1,9 @@
+.fin {
+    background-color: black;
+    display: flex;
+}
+
+.fin h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+}

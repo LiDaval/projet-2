@@ -1,0 +1,25 @@
+.carte-produit {
+    width: 500px;
+    background-color: gray;
+    margin: auto;
+    position: relative;
+}
+@media screen and (max-width: 700px) {
+    .carte-produit {
+        width: 200px;
+    }
+}
+
+.img-carte-produit {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.carte-produit .avatar-small-border {
+    position: absolute;
+}
